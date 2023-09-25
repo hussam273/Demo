@@ -19,3 +19,4 @@ function displayNumber(e){
     pElement.classList.remove("warning","error");
   }
 }
+inputElement.addEventListener("input",displayNumber);
